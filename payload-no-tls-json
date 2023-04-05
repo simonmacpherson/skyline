@@ -1,0 +1,10 @@
+{
+    "enabled": true,
+    "export-targets": {"add": [
+        {
+            "enabled": true,
+            "type": "prometheus-remote-write",
+            "url": "<PROMETHEUS_WRITE_ENDPOINT>"
+        }
+    ]}
+} 
