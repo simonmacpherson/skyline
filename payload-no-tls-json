@@ -4,7 +4,7 @@
         {
             "enabled": true,
             "type": "prometheus-remote-write",
-            "url": "<PROMETHEUS_WRITE_ENDPOINT>"
+            "url": "http://<PROMETHEUS_WRITE_ENDPOINT>:9090/api/write"
         }
     ]}
 } 
